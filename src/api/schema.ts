@@ -1,4 +1,4 @@
-import {optional, z} from "zod";
+import {z} from "zod";
 
 export const AirQualitySchema = z.object({
     hourly:z.object({
@@ -36,4 +36,4 @@ export const GeoSearchSchema = z.object({
     )
     .optional()
 });
-export type GeoSearchSchema = z.infer<typeof GeoSearchSchema>
+export type GeoSearch = z.infer<typeof GeoSearchSchema>
