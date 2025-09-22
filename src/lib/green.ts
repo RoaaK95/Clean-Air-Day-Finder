@@ -1,5 +1,3 @@
-import { boolean } from "zod";
-
 export type HourData = {
     time: string; //ISO yyyy-mm-ddThh:mm
     pm2_5: number | null;
