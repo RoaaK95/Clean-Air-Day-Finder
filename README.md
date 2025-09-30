@@ -31,10 +31,12 @@
 
 ## 📷 Screenshots
 
-- Homepage : Search a city or use current location.  
+- Homepage : Search a city or use current location.
+    
   <img width="893" height="269" alt="homepage" src="https://github.com/user-attachments/assets/bbf47976-6e7f-47ef-8bd9-e40349665e6d" />
 
-- Results Page : Green windows, chart, hourly tags.  
+- Results Page : Green windows, chart, hourly tags.
+    
   <img width="893" height="841" alt="resultsPage" src="https://github.com/user-attachments/assets/b4565c95-2e67-4b00-a310-6b2306bfd274" />
 
 
