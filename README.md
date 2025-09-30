@@ -6,14 +6,14 @@
 
   
 ## 🚀 Features
-- 🔍**City search** (via Open-Meteo Geocoding API)
-- 📍 **Use my location** (Geolocation API)
-- 🌤️ **Air quality forecast** (PM2.5, PM10, Ozone)
-- 🌡️ **Weather forecast** (temperature, wind, humidity)
-- ✅ **Green window detection** — highlights continuous periods of safe & comfortable outdoor air
-- 📊 **Interactive charts** for PM2.5 and temperature
-- 💡 **Hourly tags** for quick at-a-glance conditions
-- ♻️ Environment-focused project: helps people choose low-pollution times for exercise, commuting, or outdoor activities.
+- **City search** (via Open-Meteo Geocoding API)
+- **Use my location** (Geolocation API)
+-  **Air quality forecast** (PM2.5, PM10, Ozone)
+-  **Weather forecast** (temperature, wind, humidity)
+-  **Green window detection** — highlights continuous periods of safe & comfortable outdoor air
+-  **Interactive charts** for PM2.5 and temperature
+-  **Hourly tags** for quick at-a-glance conditions
+-  Environment-focused project: helps people choose low-pollution times for exercise, commuting, or outdoor activities.
 
 ## 🛠️ Tech Stack
 - React TypeScript
