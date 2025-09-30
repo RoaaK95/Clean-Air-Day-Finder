@@ -57,3 +57,8 @@
 ## 👥 Contributing
 
 Feel free to fork, open issues, or send PRs. Let’s make outdoor time safer and cleaner together.
+
+
+## 📝 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
