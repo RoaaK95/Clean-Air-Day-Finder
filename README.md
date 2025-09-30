@@ -18,17 +18,13 @@
 ## 🛠️ Tech Stack
 - React TypeScript
 - React Router for routing
-- TanStack Query (React Query)]for server state
+- TanStack Query for server state
 - Zod for schema validation
 - Rechartsfor data visualization
 - date-fns for time formatting
 - CSS Modules for styling
 
-## 📁 Project Structure
-
-   <img width="508" height="219" alt="project-setup" src="https://github.com/user-attachments/assets/55a5f860-b0d6-4395-a60e-fe1d79d5e264" />
-
-
+  
 ## 📷 Screenshots
 
 - Homepage : Search a city or use current location.
@@ -43,7 +39,7 @@
 ## 📦 Usage Example  
   
  - Open the app
- - Search “Baghdad” or click Use my location  
+ - Search any city name or click Use my location  
  - View top green windows like “Tue 06:00 → Tue 09:00 · 3h”
  - Scroll the chart to see how PM2.5 & temp vary
  - Use hourly tags to see “Good / Fair / Poor” for each hour
