@@ -26,7 +26,7 @@
 
 ## 📁 Project Structure
 
- <img width="508" height="219" alt="project-setup" src="https://github.com/user-attachments/assets/55a5f860-b0d6-4395-a60e-fe1d79d5e264" />
+   <img width="508" height="219" alt="project-setup" src="https://github.com/user-attachments/assets/55a5f860-b0d6-4395-a60e-fe1d79d5e264" />
 
 
 ## 📷 Screenshots
