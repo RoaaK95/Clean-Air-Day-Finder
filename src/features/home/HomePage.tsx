@@ -24,8 +24,8 @@ export function HomePage() {
         lon: r.longitude,
       }));
       setResults(list);
-    } catch (e: any) {
-      setErr(e.message ?? "Search failed");
+    } catch (e: unknown) {
+      setErr(e instanceof Error ? e.message : "Search failed");
     } finally {
       setLoading(false);
     }
@@ -68,8 +68,7 @@ export function HomePage() {
               pick(
                 r.lat,
                 r.lon,
-                `${r.name}$
-                {r.subtitle ? " • " + r.subtitle : ""}`
+                `${r.name}${r.subtitle ? " • " + r.subtitle : ""}`
               )
             }
           >

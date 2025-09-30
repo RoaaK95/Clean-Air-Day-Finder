@@ -13,9 +13,9 @@ export async function  getAirQuality(lat: number, lon:number): Promise<AirQualit
 
 export async function getWeather(lat:number, lon: number): Promise<Weather>{
     const url = new URL("https://api.open-meteo.com/v1/forecast");
-   url.searchParams.set("latitude", String(lat));
+    url.searchParams.set("latitude", String(lat));
     url.searchParams.set("longitude", String(lon));
-    url.searchParams.set("hourly"," temperature_2m, relative_humidity_2m, wind_speed_10m");
+    url.searchParams.set("hourly","temperature_2m,relative_humidity_2m,wind_speed_10m");
     const res = await fetch (url.toString());
     if (!res.ok) throw new Error("Failed to fetch Weather")
         return WeatherSchema.parse(await res.json())
