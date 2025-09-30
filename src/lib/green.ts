@@ -2,7 +2,7 @@ export type HourData = {
     time: string; //ISO yyyy-mm-ddThh:mm
     pm2_5: number | null;
     temperature_2m: number | null;
-    wind_speed_10: number | null;
+    wind_speed_10m: number | null;
 };
 
 export type HourWithScore = HourData & {
@@ -20,7 +20,7 @@ const WIND_MAX = 25; // km/h
 export function scoreHour(h: HourData): HourWithScore {
     const pmOk = h.pm2_5!=null && h.pm2_5 <= PM25_GOOD_MAX;
    const tOk = h.temperature_2m !=null && h.temperature_2m >= TEMP_MIN && h.temperature_2m <= TEMP_MAX;
-   const wOk = h.wind_speed_10 != null && h.wind_speed_10 <=WIND_MAX;
+   const wOk = h.wind_speed_10m != null && h.wind_speed_10m <=WIND_MAX;
 
    const parts = [pmOk,tOk,wOk];
    const score = (parts.filter(Boolean).length/ parts.length) * 100;

@@ -1,0 +1,56 @@
+.page {
+  max-width: 860px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+h1 {
+  font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+  margin-bottom: 8px;
+}
+.searchBox {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+.searchBox input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+}
+.searchBox button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #c9c9c9;
+  background: #f5f7fb;
+  cursor: pointer;
+}
+ .results {
+  list-style: none;
+  margin: 16px 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.results li {
+  padding: 10px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.results li:hover {
+  background: #fafafa;
+}
+.name {
+  font-weight: 600;
+}
+.sub {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+.hint {
+  color: #6b7280;
+}
+.error {
+  color: #b91c1c;
+}

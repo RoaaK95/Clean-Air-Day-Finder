@@ -1,0 +1,105 @@
+.page {
+    max-width: 1000px;
+    margin: 36px auto;
+    padding: 0 16px;
+}
+
+h2 {
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    margin-bottom: 4px;
+}
+
+.sub {
+    color: #6b7280;
+    margin: 4px 0 12px;
+}
+
+.windows {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style:
+        none;
+    margin: 0 0 16px;
+}
+
+.windows li {
+    padding: 8px 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #f9fafb;
+}
+
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.chartWrap {
+    width: 100%;
+    height: 360px;
+}
+
+.legendRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.goodDot,
+.fairDot,
+.poorDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    display: inline-block;
+}
+
+.goodDot {
+    background: #16a34a;
+}
+
+.fairDot {
+    background: #f59e0b;
+}
+
+.poorDot {
+    background: #ef4444;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px,
+                1fr));
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.tag {
+    padding: 6px 8px;
+    border-radius: 999px;
+    font-size: .9rem;
+    text-align:
+        center;
+}
+
+.good {
+    background: #ecfdf5;
+    color: #065f46;
+}
+
+.fair {
+    background: #fffbeb;
+    color: #92400e;
+}
+
+.poor {
+    background: #fef2f2;
+    color: #991b1b;
+}
