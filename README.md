@@ -26,22 +26,15 @@
 
 ## 📁 Project Structure
 
-src/
-  api/          # API fetch clients + Zod schemas
-  features/
-    home/       # HomePage (search, geolocation)
-    results/    # ResultsPage (charts, windows)
-  lib/          # Scoring logic, window detection, formatting
-  styles/       # CSS modules, global CSS
-  router.tsx
-  main.tsx
+ <img width="508" height="219" alt="project-setup" src="https://github.com/user-attachments/assets/55a5f860-b0d6-4395-a60e-fe1d79d5e264" />
+
 
 ## 📷 Screenshots
 
-- Homepage : Search a city or use current location.
+- Homepage : Search a city or use current location.  
   <img width="893" height="269" alt="homepage" src="https://github.com/user-attachments/assets/bbf47976-6e7f-47ef-8bd9-e40349665e6d" />
 
-- Results Page : Green windows, chart, hourly tags.
+- Results Page : Green windows, chart, hourly tags.  
   <img width="893" height="841" alt="resultsPage" src="https://github.com/user-attachments/assets/b4565c95-2e67-4b00-a310-6b2306bfd274" />
 
 
