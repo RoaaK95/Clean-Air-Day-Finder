@@ -2,14 +2,17 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { geoSearch } from "../../api/openMeteo";
 import styles from "./home.module.css";
+
 export function HomePage() {
   const nav = useNavigate();
   const [q, setQ] = useState("");
   const [results, setResults] = useState<
     { name: string; subtitle: string; lat: number; lon: number }[]
   >([]);
+
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+
   async function onSearch(v: string) {
     setQ(v);
     if (!v.trim()) return setResults([]);
@@ -30,9 +33,13 @@ export function HomePage() {
       setLoading(false);
     }
   }
+
+
   function pick(lat: number, lon: number, label: string) {
     nav(`/results?lat=${lat}&lon=${lon}&name=${encodeURIComponent(label)}`);
   }
+
+
   function useMyLocation() {
     if (!navigator.geolocation) {
       alert("Geolocation not supported");
@@ -46,6 +53,8 @@ export function HomePage() {
       () => alert("Could not get location")
     );
   }
+
+  
   return (
     <div className={styles.page}>
       <h1>Clean‑Air Day Finder</h1>

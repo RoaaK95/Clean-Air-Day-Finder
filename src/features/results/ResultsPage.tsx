@@ -4,8 +4,7 @@ import { useQuery } from '@tanstack/react-query'
 import { getAirQuality, getWeather } from "../../api/openMeteo"
 import { scoreHour, contiguousWindows, type HourData } from "../../lib/green"
 import { format, parseISO } from "date-fns"
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend }
-  from "recharts";
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from "recharts";
 import styles from "./results.module.css";
 
 function useQueryParams() {
