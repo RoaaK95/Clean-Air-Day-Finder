@@ -24,6 +24,13 @@
 - date-fns for time formatting
 - CSS Modules for styling
 
+## 🧠 Technical Decisions
+
+- Used **TanStack Query** for server-state caching, retries, and request deduplication.
+- Applied **Zod** for runtime validation of external API responses to prevent UI crashes.
+- Split data fetching, UI components, and utility logic for maintainability.
+- Chose **CSS Modules** to avoid global style conflicts in a growing UI.  
+
   
 ## 📷 Screenshots
 
