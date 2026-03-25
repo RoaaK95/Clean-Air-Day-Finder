@@ -20,7 +20,7 @@
 - React Router for routing
 - TanStack Query for server state
 - Zod for schema validation
-- Rechartsfor data visualization
+- Recharts for data visualization
 - date-fns for time formatting
 - CSS Modules for styling
 
